@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Stock stock = new Stock();
         stock.setName("Parfum");
+        // git branch test
         stock.setValue(5);
         Session session = HibernateConfig.getSession();
         session.beginTransaction();
